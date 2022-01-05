@@ -9,12 +9,12 @@ let velocidadeX = 6,
 
 let velocidadeOpY;
 
-let raqueteX = 20;
+let raqueteX = 5;
 let raqueteY = 160;
 let raqueteComprimento = 10;
 let raqueteAltura = 80;
 
-let raqueteOpX = 570;
+let raqueteOpX = 585;
 let raqueteOpY = 160;
 
 let colidiu = false;
@@ -63,14 +63,9 @@ function draw() {
 }
 
 function preload() {
-  // raquetada = loadSound("assets/raquetada.mp3");
-  // trilha = loadSound("assets/trilha.mp3");
-  // ponto = loadSound("assets/ponto.mp3");
-
-  raquetada = loadSound("raquetada.mp3");
-  trilha = loadSound("trilha.mp3");
-  ponto = loadSound("ponto.mp3");
-
+  raquetada = loadSound("assets/raquetada.mp3");
+  trilha = loadSound("assets/trilha.mp3");
+  ponto = loadSound("assets/ponto.mp3");
 }
 
 function mostraRaquete(x, y) {
